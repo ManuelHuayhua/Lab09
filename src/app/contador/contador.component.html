@@ -1,0 +1,21 @@
+<div class="container d-flex flex-column align-items-center justify-content-center">
+  <h2 class="font-italic">Contador</h2>
+  <span class="line-break"></span>
+  <div class="d-flex">
+    <button class="bbtn btn-outline-danger btn-rounded mr-3" (click)="incrementar()">+</button>
+    <button class="btn btn-outline-warning btn-rounded" (click)="disminuir()">-</button>
+  </div>
+  <span class="line-break"></span>
+
+  <p class="font-italic">El valor actual del contador es: {{valor}}</p>
+</div>
+<hr>
+<hr>
+
+<style>
+ 
+  hr {
+  border: none;
+  border-top: 1px solid black;
+}
+</style>

@@ -1,0 +1,22 @@
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<div style="text-align: center;">
+  <h2 class="font-italic">{{titulo}}</h2>
+  <p class="font-italic">{{mensaje}}</p>
+  <br>
+  <div (mouseover)="onMouseEnter()" (mouseout)="onMouseLeave()">
+    <img [src]="imagen" alt="Imagen">
+  </div>
+  
+</div>
+<hr>
+<hr>
+
+<style>
+ 
+  hr {
+  border: none;
+  border-top: 1px solid black;
+}
+</style>
